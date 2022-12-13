@@ -9,4 +9,5 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+SoalUndi is a chatbot deployed on Telegram to answer questions about the Malaysian Elections.
+
