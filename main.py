@@ -26,6 +26,7 @@ async def start(update: Update, context: CallbackContext.DEFAULT_TYPE):
 
 async def echo(update: Update, context: CallbackContext.DEFAULT_TYPE):
     await context.bot.send_message(chat_id=update.effective_chat.id, text=str(chatbot.generateResponse(update.message.text)))
+    write_data(update.message.text, "logtest1.txt")
 
 if __name__ == '__main__':
     application = ApplicationBuilder().token('5224908027:AAEL_d9wym2Sh291PAN4fVfKK7qkwWjkUqg').build()
