@@ -1,0 +1,299 @@
+{"intents": [
+  {"tag": "greeting",
+   "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+   "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+   "context_set": ""
+  },
+  {"tag": "goodbye",
+   "patterns": ["Bye", "See you later", "Goodbye"],
+   "responses": ["See you later, thanks for chatting!", "Have a nice day", "Bye! Come back again soon."]
+  },
+  {"tag": "thanks",
+   "patterns": ["Thanks", "Thank you", "That's helpful"],
+   "responses": ["You Welcome, Are you satisfied with the answers?"]
+  },
+  {
+    "tag": "change address",
+    "patterns": ["register change of address", "change my address", "change address", "chenge voting address"],
+    "responses": ["You can deal with all registration centers and Assistant Registrars of Voters authorized by the SPR to register change of address"]
+  },
+  {"tag": "voter registration status",
+   "patterns": ["where can i check voter registration status", "check voter registration status", "voter status"],
+   "responses": ["You can check their voter registation status at at the EC Election Headquarters, at the State Election Office Voter Register, review with MySPR Mobile app, with their SPR outreach units, or here at https://mysprsemak.spr.gov.my/semakan/daftarPemilih"]
+  },
+  {"tag": "correct info details",
+   "patterns": ["correct info details", "where to change info details"],
+   "responses": ["The correction of any small information details is made at the State Election Office which will then be sent to the EC Headquarters for approval"]
+  },
+  {"tag": "Source of Power",
+    "patterns": ["Why is the spr in charge", "spr sources of authority", "which article law is the spr derive source of power"],
+    "responses": [" The SPR performs the functions of voter registration and review of the voter register based on the following 3 sources of authority:\nArticles 113 and 119 of the Federal Constitution;\nElections Act 1958;\n andThe Elections (Registration of Voters) Regulations 2002."]
+  },
+  {
+    "tag" : "voter category",
+    "patterns" : ["how many voter categories are there", "what are the voter categories", "voter category"],
+    "responses": ["The voter category is divided into two: Ordinary voters and Absentee voters."]
+  },
+  {"tag": "absentee voters",
+   "patterns": ["absentee voters", "who are absentee voters", "type of absentee voters"],
+   "responses": ["The categories of absentee voters consist of\nRegularly serving military personnel;\nSpouses of regular military personnel;\nPolicemen other than members of the Reserve Volunteer Police Force;\nSpouse to General Operations Force police;\nCivil servants serving abroad\nSpouses of civil servants serving abroad\nStudents abroad on a full-time basis\nSpouses of full-time overseas students"]
+  },
+  {
+    "tag": "register to vote",
+    "patterns": ["register to vote", "how do i register to vote"],
+    "responses": ["From 15 December 2021, new voter registration will be automatic."]
+  },
+  {
+    "tag": "voter qualifications",
+    "patterns": ["voter qualifications", "who are qualified to be voters", "how do i qualify to vote", "who are qualified to vote"],
+    "responses": ["The qualifications to be registered as a new voter are: \n(a) Malaysian citizens \n(b) Aged 18 years and above \n(c) Resident in any electoral division (having a residential address registered with the National Registration Department) \n(d) Not disqualified based on Article 119 (3) of the Federal Constitution"]
+  },
+  {
+    "tag": "voter disqualification",
+    "patterns": ["voter disqualification", "disqualify as a voter", "what disqualifies as voter", "no longer a voter", "no longer can vote"],
+    "responses": ["The definition of disqualification to be registered as a voter based on Article 119 (3) of the Federal Constitution is: \n(a) on the date of eligibility, detained as a person of unsound mind or serving a sentence of imprisonment \n(b) before the qualifying date he has been convicted of an offense in any part of the Commonwealth and sentenced to death or imprisonment for a term exceeding twelve months and on that qualifying date he is still serving any sentence for that offence"]
+  },
+  {
+    "tag": "First-Past-The-Post-System",
+    "patterns": ["How are winners decided in Malaysia", "How are candidates become winners", "What determines which candidate wins"],
+    "responses": ["The system used in Malaysia is based on the 'First-Past-The-Post-System'. This means that the candidates who obtain the majority will be declared the winners in the relevant electoral division"]
+  },
+  {
+    "tag": "elements of elections",
+    "patterns": ["elements of elections"],
+    "responses": ["The important elements of the election are: Electoral Division, Selector, Candidates, Election Process"]
+  },
+  {
+    "tag": "type of elections",
+    "patterns": ["type of elections" , "how many types of elections", "what are the types of elections"],
+    "responses": ["There are two types of elections namely: General elections, Small Elections"]
+  },
+  {
+    "tag": "General election reasons",
+    "patterns": ["Why are general election held", "why do we have general elections"],
+    "responses": ["General Elections are held when the Parliament or State Legislative Assembly is dissolved or dissolves itself after the expiry of 5 years"]
+  },
+  {
+    "tag": "By-election reasons",
+    "patterns": ["Why are by-election held", "why do we have by-elections"],
+    "responses": ["By-Elections are held to fill vacancies in the Parliament or State Legislative Assembly due to unforeseen circumstances due to: Death, Resignation, Disqualified, or Annulment of election results by the Election Court"]
+  },
+  {
+    "tag": "Stages of elections",
+    "patterns": ["how are elections done", "what is the process of elections"],
+    "responses": ["General Elections or By-Elections in Malaysia involve six (6) stages which are the issuing of writs, nomination of candidates, election campaign, voting, official tallying of votes and announcement of election result"]
+  },
+  {
+    "tag": "Issuing of writs",
+    "patterns": ["Issuing of writs", "how are writs issued", "writs issued", "what happens when parliament dissolves"],
+    "responses": ["In the event of the dissolution of Parliament or the State Legislative Assembly or there is an unforeseen vacancy, the SPR will issue a writ that is a power of attorney to conduct elections to the Managing Officer. At the same time an election notice will be gazetted and posted in places that are easy for the public to check. The notice will contain the date of nomination and the date of voting to be conducted."]
+  }, 
+  {
+    "tag": "nomination of candidates",
+    "patterns": ["nomination of candidates", "How are candidates nominated", "How can i become a candidate"],
+    "responses": ["On the designated candidate nomination day, between 9.00 am and 10.00 am, the Managing Officer will receive nomination forms from candidates, proposers or supporters or all three at once. Apart from the submission of the nomination form, candidates, proposers or supporters must also include the election deposit and the Statutory Account Form which is Form 5 for candidates for members of the Dewan Rakyat and Form 5A for candidates for members of the State Assembly. These forms need to be stamped at the Stamp Duty Office. The Managing Officer will announce the candidates who are eligible to run after completing the nomination process. If only one candidate is eligible, the Managing Officer will announce that candidate won without contesting."]
+  }, 
+  {
+    "tag": "deposit",
+    "patterns": ["deposits money", "how much are the deposits", "how many is the deposit"],
+    "responses": ["RM 10,000.00 for Parliamentary Elections and RM 5,000.00 for State Assembly Elections"]
+  }, 
+  {
+    "tag": "lose deposit",
+    "patterns": ["lose deposit", "how do you lose deposit money", "lose deposit money"],
+    "responses": ["Candidates will lose their deposit money if they fail to obtain 1/8 of the total number of votes obtained by all the candidates contesting in a certain electoral division."]
+  },
+  {
+    "tag": "pay the deposit money",
+    "patterns": ["pay the deposit money", "where do i pay the deposit", "how do i pay the deposit"],
+    "responses": ["Deposit money must be paid to the Managing Officer or State Election Director no later than 10.00 am on the day of nomination. Election Deposit can be paid in cash or bank draft."]
+  },
+  {
+    "tag": "voting process",
+    "patterns": ["what should i do during voting day", "voting process", "how do i vote"],
+    "responses": ["Come early to the Voting Center and get the Voting Channel slip at the SPR Voter Register. If the polling station number is known, the voter can go directly to the voting station without going to the Voter Register and quietly queue at your voting channel. When it is your turn and you are allowed to enter the voting channel, please follow the voting procedure posted at the entrance of the channel, then leave immediately after voting."]
+  },
+  {
+    "tag": "complaints",
+    "patterns": ["complaints", "where do i send coomplaints to", "how do i complain"],
+    "responses": ["Complaints regarding the election can be made at https://www.spr.gov.my/ms/aduan-pertanyaan."]
+  },
+  {
+    "tag": "domestic postal voters",
+    "patterns": ["who can apply for domestic postal voting", "who are eligible for domestic postal voting"],
+    "responses": ["Army officers, police officers, media, election officers, and officers of goverment agencies"]
+  },
+  {
+    "tag": "postal voting application",
+    "patterns": ["postal voting application", "how can i applty for postal voting"],
+    "responses": ["Postal ballot applications by members and officers from this Agency must be done online at the MySPR portal via the following link: https://myspr.spr.gov.my/login"]
+  },
+  {
+    "tag": "overseas postal voters",
+    "patterns": ["overseas postal voters", "who can apply for overseas postal voting", "who are eligible for overseas postal voting"],
+    "responses": ["Malaysian citizens, students, and civil servantsa broads with their spouses"]
+  },
+  {
+    "tag": "candidate privilege",
+    "patterns": ["Privileges For A Candidate On Voting Day"],
+    "responses": ["Candidates are allowed to visit the following places: Voting/counting place, Centralized and clustered vote counting centers, Center for the production, opening and counting of postal ballots, and Official Vote Tallying Center."]
+  },
+  {
+    "tag": "registered parties",
+    "patterns": ["registered parties", "what are the parties contesting", "political partoes contesting"],
+    "responses": ["Contesting parties regsistered with the SPR can be viewed here: https://www.spr.gov.my/ms/pilihan-raya/penjalanan-pilihan-raya/calon"]
+  },
+  {
+    "tag": "voter eligible",
+    "patterns": ["who are eligible to vote"],
+    "responses": ["Eligible Malaysian citizens who have been registered as voters and whose names appear in the Electoral Register used in elections"]
+  },
+  {
+    "tag": "voting time",
+    "patterns": ["when can i vote", "what is the voting time", "What time do I need to be at the polling station?"],
+    "responses": ["From 8.00 am to 6.00 pm in Semenjung Malaysia and 7.30 am to 5.30 pm in Sabah and Sarawak."]
+  },
+  {
+    "tag": "document for voting",
+    "patterns": ["Document to bring when voting"],
+    "responses": ["The required document is an Identity Card either My Kad or an old Identity Card either KPT or a Blue Plastic Identity Card."]
+  },
+  {
+    "tag": "Vote for other people",
+    "patterns": ["Vote for other people"],
+    "responses": ["No, However, in certain cases involving visually impaired voters, the voter must be accompanied by a person whom the voter trusts to help him to mark the ballot paper provided that person must first fill in Form 10."]
+  },
+  {
+    "tag": "know about contesting candidates",
+    "patterns": ["How do I know more about the contesting candidates in my constituency before the election?", "contesting candidates", "who are the candidates for voting"],
+    "responses": ["You can find out more about the candidates through the media, the candidate's available social media pages (Twitter, TikTok or Facebook) and through the programs (talks or ceramah) that will be held in your area during the campaigning period"]
+  },
+  {
+    "tag": "difference parliament state assembly",
+    "patterns": ["What is the difference between a Member of Parliament and a state assemblyman?"],
+    "responses": ["Member of Parliaments go to the Dewan Rakyat as our representatives, and are involved in handling national issues and policy matters. While, Members of state assemblies have powers to enact state laws as provided for by the Constitution of Malaysia."]
+  },
+  {
+    "tag": "divided - constituency",
+    "patterns": ["What is a constituency and how is it divided?"],
+    "responses": ["A subdivision of a larger state created to provide its population with representation in the legislative body. Division is done through delineation, which is a process of dividing the Federal and State constituencies"]
+  },
+  {
+    "tag": "popular vote",
+    "patterns": ["What is a popular vote?", "popular vote"],
+    "responses": ["A popular vote is the total votes received by a party or its coalition and "]
+  },
+  {
+    "tag": "parliamentary seats",
+    "patterns": ["How many parliamentary seats are there?", "number of parliamentary seats"],
+    "responses": ["There are 222 parliamentary seats"]
+  },
+  {
+    "tag": "state seats",
+    "patterns": ["How many state seats?", "number of state seats"],
+    "responses": ["There are 600 state legislative assembly seats in 13 states"]
+  },
+  {
+    "tag": "mark ballot paper",
+    "patterns": ["How do I mark my ballot paper?", "how do you sign ballot paper", "mark ballot paper"],
+    "responses": ["You can mark your ballot paper by crossing in the provided checkbox besides your chosen candidate"]
+  },
+  {
+    "tag": "contesting parties on ballot paper",
+    "patterns": ["Will all the contesting parties be listed on the ballot paper?"],
+    "responses": ["Yes. Furthermore, individual parties under a coalition may either use their own logo or their coalition's logo when contesting"]
+  },
+  {
+    "tag": "vote importance",
+    "patterns": ["Will my vote matter?", "Is my vote important"],
+    "responses": ["Yes, your vote matters in determining your state and federal representative who in turn will decide on the policies that is best for the country and states"]
+  },
+  {
+    "tag": "majority vote",
+    "patterns": ["What determines a majority vote?", "what is majority vote"],
+    "responses": ["The majority vote is at least 112 votes of the House of Representatives and will form the federal government"]
+  },
+  {
+    "tag": "get out of voting queue",
+    "patterns": ["Can I bring food/drinks when queuing at the polling station or go to the toilet while waiting for my turn to vote?"],
+    "responses": ["You can bring snacks or water , and go to the toilet when queuing at the polling station"]
+  },
+  {
+    "tag": "cast vote for more than one",
+    "patterns": ["Can I cast my vote for more than one candidate?"],
+    "responses": ["You are required to vote for only ONE (1) candidate each for the Parliamentary seat and the state legislative assembly seat"]
+  },
+  {
+    "tag": "bring own pen/pencil",
+    "patterns": ["Do I need to bring my own pen/pencil at the polling station?"],
+    "responses": ["No, the pen to mark your ballot paper will be provided"]
+  },
+  {
+    "tag": "live streaming voting",
+    "patterns": ["Can I do an Instagram/Tiktok live while casting my vote?", "Can i stream live while voting", "live streaming voting", "take pictures"],
+    "responses": ["No, you are NOT allowed to take photos or videos when casting your vote"]
+  },
+  {
+    "tag": "empty ballot paper",
+    "patterns": ["What happens if I leave the ballot paper empty?", "empty ballot paper"],
+    "responses": ["Empty ballot papers are not counted"]
+  },
+  {
+    "tag": "vote on other date",
+    "patterns": ["If I am unable to go to the polling station or forget to vote, can I come on another date?"],
+    "responses": ["No, you cannot come on another date to vote"]
+  },
+  {
+    "tag": "assistnance family",
+    "patterns": ["Can I bring my parents/siblings to assist me at the polling station?", "Can I bring other people to help me vote", "Can i vote with a friend"],
+    "responses": ["No, your friend or parent cannot accompany you when you are casting your vote. You can ask for help from EC officials if you need any help when casting your vote"]
+  },
+  {
+    "tag": "dress code",
+    "patterns": ["dress code", "Is there any dress code", "what is the dress code"],
+    "responses": ["The Election Commission does not fix a dress code for polling day, but it is advisable to dress appropriately or decently. However, voters must not wear clothes, carry an umbrella, water bottle or any other items that bear a party logo."]
+  },
+  {
+    "tag": "check polling station",
+    "patterns": ["check polling station", "where is my polling station", "where can i check my polling place", "where do i vote", "where can i vote"],
+    "responses": ["Polling station information is available at : the Election Commission website at https://mysprsemak.spr.gov.my/semakan/daftarPemilih; and the MySPR Semak mobile app"]
+  },
+  {
+    "tag": "vote for",
+    "patterns": ["who should i vote for", "Why should i vote for a candidate"],
+    "responses": ["Vote for your chosen candidate who represent your best interests"]
+  },
+  {
+    "tag": "best party",
+    "patterns": ["best party", "Which party is the best", "most popular party"],
+    "responses": ["I'm sorry, I cannot answer that question to maintain neutrality"]
+  },
+  {
+    "tag": "voting age",
+    "patterns": ["How old do i have to be to vote", "how old is the voting age", "voting age"],
+    "responses": ["The voting age is 18 years old"]
+  },
+  {
+    "tag": "covid",
+    "patterns": ["what if Covid","Covid", "Can i still vote if I have covid"],
+    "responses": ["You are allowed to vote if you are Covid-19 positive and under home surveillance. However, the Election Commission will have a special arrangement for those involved. "]
+  },
+  {
+    "tag": "bring for voting",
+    "patterns": ["What should i bring for to voting?", "Do i need to bring anything to vote"],
+    "responses": ["You need to bring the National Identification Card to the polling centre"]
+  },
+  {
+    "tag": "compulsary",
+    "patterns": ["is voting compulsary"],
+    "responses": ["No, it is not compulsary. However, it is a civic duty"]
+  },
+  {
+    "tag": "results",
+    "patterns": ["results pru15", "Can i see the results of the election"],
+    "responses": ["The results of the elction can be viewed here at: http://dashboard.spr.gov.my/"]
+  }
+]
+}
+
+
